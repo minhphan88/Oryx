@@ -17,14 +17,14 @@ firstArg="$1"
 secondArg="$2"
 thirdArg="$3"
 
-if [[ -n $firstArg ]]; then
-    echo "First Arg is: "$firstArg
+if [[ -n "$firstArg" ]]; then
+    echo "First Arg is: $firstArg"
 fi
 
-if [[ -n $secondArg ]]; then
-    echo "Second Arg is: "$secondArg
+if [[ -n "$secondArg" ]]; then
+    echo "Second Arg is: $secondArg"
 fi
 
-if [[ -n $thirdArg ]]; then
-    echo "Third Arg is: "$thirdArg
+if [[ -n "$thirdArg" ]]; then
+    echo "Third Arg is: $thirdArg"
 fi
