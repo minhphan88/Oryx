@@ -13,6 +13,10 @@ source $REPO_DIR/build/__variables.sh
 source $REPO_DIR/build/__functions.sh
 source $REPO_DIR/build/__sdkStorageConstants.sh
 
+echo $1
+echo $2
+echo $3
+
 firstArg="$1"
 secondArg="$2"
 thirdArg="$3"
