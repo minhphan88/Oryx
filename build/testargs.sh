@@ -19,7 +19,7 @@ echo $3
 
 firstArg="$1"
 secondArg="$2"
-thirdArg='$3'
+thirdArg="$3"
 
 if [[ -n "$firstArg" ]]; then
     echo "First Arg is: $firstArg"
