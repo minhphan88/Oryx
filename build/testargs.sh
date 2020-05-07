@@ -19,7 +19,7 @@ echo $3
 
 firstArg="$1"
 secondArg="$2"
-thirdArg="$3"
+thirdArg='$3'
 
 if [[ -n "$firstArg" ]]; then
     echo "First Arg is: $firstArg"
@@ -29,6 +29,6 @@ if [[ -n "$secondArg" ]]; then
     echo "Second Arg is: $secondArg"
 fi
 
-if [[ -n '$thirdArg' ]]; then
+if [[ -n "$thirdArg" ]]; then
     echo "Third Arg is: $thirdArg"
 fi
