@@ -29,6 +29,6 @@ if [[ -n "$secondArg" ]]; then
     echo "Second Arg is: $secondArg"
 fi
 
-if [[ -n "$thirdArg" ]]; then
+if [[ -n '$thirdArg' ]]; then
     echo "Third Arg is: $thirdArg"
 fi
